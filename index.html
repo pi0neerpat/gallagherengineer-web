@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patrick Gallagher — Fullstack Engineer</title>
+  <meta name="description" content="Fullstack software engineer building sovereign, local-first software. Software should serve the human, not extract from them." />
+  <meta name="theme-color" content="#0a0b0d" />
+
+  <meta property="og:title" content="Patrick Gallagher — Fullstack Engineer" />
+  <meta property="og:description" content="Fullstack software engineer building sovereign, local-first software." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/me.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="terminal-root">
+
+  <nav class="tnav" id="tnav">
+    <div class="tnav__left">
+      <span class="tnav__dot tnav__dot--r"></span>
+      <span class="tnav__dot tnav__dot--y"></span>
+      <span class="tnav__dot tnav__dot--g"></span>
+    </div>
+    <div class="tnav__center">
+      <a href="#skills">skills</a>
+      <a href="#work">work</a>
+      <a href="#experience">experience</a>
+      <a href="#writing">writing</a>
+      <a href="#contact">contact</a>
+    </div>
+    <div class="tnav__right">
+      <span class="tnav__time" id="clock" aria-live="off">00:00:00 UTC</span>
+      <span class="tnav__status"><span class="tnav__pulse"></span> online</span>
+    </div>
+  </nav>
+
+  <header id="top" class="thero">
+    <div class="thero__grid">
+      <div class="thero__left">
+        <div class="thero__hi">Hi! <span class="thero__wave">✌︎</span></div>
+        <div class="thero__sub">my name is</div>
+        <h1 class="thero__name">
+          <span>Patrick</span>
+          <span>Gallagher</span>
+        </h1>
+        <div class="thero__descriptor">
+          <span class="thero__key">role</span>
+          <span class="thero__eq">=</span>
+          <span class="thero__val">"fullstack_engineer"</span>
+        </div>
+        <p class="thero__tag">Software should serve the human, not extract from them.</p>
+        <p class="thero__bio">Fullstack Software Engineer with a passion for sovereign and open source systems.</p>
+
+        <div class="thero__cta">
+          <a class="btn btn--primary" href="#contact"><span>get in touch</span><span class="btn__arrow">→</span></a>
+          <a class="btn btn--ghost" href="#work"><span>see work</span><span class="btn__arrow">↓</span></a>
+        </div>
+
+        <div class="thero__meta">
+          <div class="metapair"><span class="metapair__k">location</span><span class="metapair__v">United States</span></div>
+          <div class="metapair"><span class="metapair__k">status</span><span class="metapair__v"><span class="metapair__dot"></span>open for projects</span></div>
+          <div class="metapair"><span class="metapair__k">timezone</span><span class="metapair__v">PT</span></div>
+        </div>
+      </div>
+
+      <div class="thero__right">
+        <div class="tphoto">
+          <div class="tphoto__frame">
+            <img src="assets/me.jpg" alt="Patrick Gallagher" width="512" height="512" />
+            <div class="tphoto__scanline"></div>
+            <div class="tphoto__corner tphoto__corner--tl"></div>
+            <div class="tphoto__corner tphoto__corner--tr"></div>
+            <div class="tphoto__corner tphoto__corner--bl"></div>
+            <div class="tphoto__corner tphoto__corner--br"></div>
+          </div>
+          <div class="tphoto__caption">
+            <span>./portrait.jpg</span>
+            <span>512 × 512 · rgb</span>
+          </div>
+        </div>
+
+        <div class="tsocials">
+          <a href="https://github.com/pi0neerpat" class="tsocials__item" rel="noopener" target="_blank">
+            <span class="tsocials__label">[github]</span>
+            <span class="tsocials__handle">@pi0neerpat</span>
+            <span class="tsocials__arrow">↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/pi0neerpat/" class="tsocials__item" rel="noopener" target="_blank">
+            <span class="tsocials__label">[linkedin]</span>
+            <span class="tsocials__handle">@pi0neerpat</span>
+            <span class="tsocials__arrow">↗</span>
+          </a>
+          <a href="https://twitter.com/pi0neerpat" class="tsocials__item" rel="noopener" target="_blank">
+            <span class="tsocials__label">[twitter]</span>
+            <span class="tsocials__handle">@pi0neerpat</span>
+            <span class="tsocials__arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="thero__scrollhint">
+      <span>scroll</span>
+      <span class="thero__scrollhint-line"></span>
+    </div>
+  </header>
+
+  <div class="tdivider">
+    <div class="tdivider__inner">
+      <span class="tdivider__label">~/skills</span>
+      <span class="tdivider__dashes"></span>
+      <span class="tdivider__count">[06]</span>
+    </div>
+  </div>
+
+  <section id="skills" class="tskills">
+    <h2 class="th">I'm good at this</h2>
+    <div class="tskills__grid">
+      <div class="tskill" data-reveal style="--delay:0ms">
+        <div class="tskill__head"><span class="tskill__name">Claude, Codex</span><span class="tskill__years">3y</span></div>
+        <div class="tskill__bar"><div class="tskill__fill" style="--level:95%"></div><div class="tskill__ticks"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+        <div class="tskill__foot"><span>95/100</span><span class="tskill__code">// proficient</span></div>
+      </div>
+      <div class="tskill" data-reveal style="--delay:50ms">
+        <div class="tskill__head"><span class="tskill__name">Agent Orchestration</span><span class="tskill__years">2y</span></div>
+        <div class="tskill__bar"><div class="tskill__fill" style="--level:92%"></div><div class="tskill__ticks"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+        <div class="tskill__foot"><span>92/100</span><span class="tskill__code">// proficient</span></div>
+      </div>
+      <div class="tskill" data-reveal style="--delay:100ms">
+        <div class="tskill__head"><span class="tskill__name">Coding by hand</span><span class="tskill__years">12y</span></div>
+        <div class="tskill__bar"><div class="tskill__fill" style="--level:96%"></div><div class="tskill__ticks"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+        <div class="tskill__foot"><span>96/100</span><span class="tskill__code">// proficient</span></div>
+      </div>
+      <div class="tskill" data-reveal style="--delay:150ms">
+        <div class="tskill__head"><span class="tskill__name">Transcription, STT</span><span class="tskill__years">3y</span></div>
+        <div class="tskill__bar"><div class="tskill__fill" style="--level:85%"></div><div class="tskill__ticks"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+        <div class="tskill__foot"><span>85/100</span><span class="tskill__code">// proficient</span></div>
+      </div>
+      <div class="tskill" data-reveal style="--delay:200ms">
+        <div class="tskill__head"><span class="tskill__name">Sandboxing + Security</span><span class="tskill__years">5y</span></div>
+        <div class="tskill__bar"><div class="tskill__fill" style="--level:82%"></div><div class="tskill__ticks"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+        <div class="tskill__foot"><span>82/100</span><span class="tskill__code">// proficient</span></div>
+      </div>
+      <div class="tskill" data-reveal style="--delay:250ms">
+        <div class="tskill__head"><span class="tskill__name">Decentralized finance</span><span class="tskill__years">7y</span></div>
+        <div class="tskill__bar"><div class="tskill__fill" style="--level:88%"></div><div class="tskill__ticks"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+        <div class="tskill__foot"><span>88/100</span><span class="tskill__code">// proficient</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="tdivider">
+    <div class="tdivider__inner">
+      <span class="tdivider__label">~/work</span>
+      <span class="tdivider__dashes"></span>
+      <span class="tdivider__count">[05]</span>
+    </div>
+  </div>
+
+  <section id="work" class="twork">
+    <h2 class="th">Things I work on</h2>
+    <div class="twork__grid">
+
+      <a href="https://www.scribular.com/" target="_blank" rel="noopener" class="twcard" data-reveal style="--a:var(--accent-1);--delay:0ms">
+        <div class="twcard__path">~/projects/scribular/</div>
+        <div class="twcard__head"><span class="twcard__kind">Desktop App</span><span class="twcard__year">2025 — now</span></div>
+        <h3 class="twcard__title">Scribular</h3>
+        <div class="twcard__platforms">
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/apple.svg" alt="" width="12" height="12" /><span>macOS</span></span>
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/windows.svg" alt="" width="12" height="12" /><span>Windows</span></span>
+        </div>
+        <p class="twcard__blurb">AI-powered therapy notes that run entirely on-device. No cloud, no uploads, no training pipeline — progress notes in under a minute.</p>
+        <div class="twcard__preview" aria-hidden="true">
+          <div class="twcard__previewbody" style="--a:var(--accent-1)">
+            <div class="pv pv--scribular">
+              <div class="pv__row"><span class="pv__dot" style="background:var(--accent-1)"></span><span>● recording session · 00:14:22</span></div>
+              <div class="pv__wave" data-wave="1"></div>
+              <div class="pv__note">
+                <div class="pv__noteline"></div>
+                <div class="pv__noteline pv__noteline--70"></div>
+                <div class="pv__noteline pv__noteline--90"></div>
+                <div class="pv__noteline pv__noteline--50"></div>
+              </div>
+              <div class="pv__foot">on-device · no cloud</div>
+            </div>
+          </div>
+        </div>
+        <div class="twcard__stack">
+          <span class="tag">Electron</span><span class="tag">Local AI</span><span class="tag">Whisper</span><span class="tag">TypeScript</span><span class="tag">React</span>
+        </div>
+        <div class="twcard__award">✦ Live Product</div>
+        <div class="twcard__cta">
+          <span class="twcard__ctaHost"><span>scribular.com</span></span>
+          <span class="twcard__ctaOpen">open <span class="twcard__arrow">↗</span></span>
+        </div>
+      </a>
+
+      <a href="https://github.com/pi0neerpat/agent-hygiene#readme" target="_blank" rel="noopener" class="twcard" data-reveal style="--a:var(--accent-2);--delay:70ms">
+        <div class="twcard__path">~/projects/agent-hygiene/</div>
+        <div class="twcard__head"><span class="twcard__kind">CLI / Dev Tool</span><span class="twcard__year">2026</span></div>
+        <h3 class="twcard__title">Agent Hygiene</h3>
+        <div class="twcard__platforms">
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/apple.svg" alt="" width="12" height="12" /><span>macOS</span></span>
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/linux.svg" alt="" width="12" height="12" /><span>Linux</span></span>
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/windows.svg" alt="" width="12" height="12" /><span>Windows</span></span>
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/githubactions.svg" alt="" width="12" height="12" /><span>CI</span></span>
+        </div>
+        <p class="twcard__blurb">Measure and improve your coding-agent hygiene. 25 checks across context efficiency, cost, structure and habits — with letter-grade scoring and auto-fix.</p>
+        <div class="twcard__preview" aria-hidden="true">
+          <div class="twcard__previewbody" style="--a:var(--accent-2)">
+            <div class="pv pv--hygiene">
+              <div class="pv__grade" style="color:var(--accent-2);border-color:var(--accent-2)">A-</div>
+              <div class="pv__checks">
+                <div class="pv__check"><span class="pv__checkMark" style="background:var(--accent-2)">✓</span><span>Context 92/100</span></div>
+                <div class="pv__check"><span class="pv__checkMark" style="background:var(--accent-2)">✓</span><span>Cost 78/100</span></div>
+                <div class="pv__check"><span class="pv__checkMark" style="background:var(--accent-2)">✓</span><span>Structure 88/100</span></div>
+                <div class="pv__check"><span class="pv__checkMark" style="background:var(--accent-2)">✓</span><span>Habits 71/100</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="twcard__stack">
+          <span class="tag">TypeScript</span><span class="tag">Node.js</span><span class="tag">Claude Code</span><span class="tag">Codex</span>
+        </div>
+        <div class="twcard__cta">
+          <span class="twcard__ctaHost"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/github.svg" alt="GitHub" width="12" height="12" class="twcard__ctaIco" /></span>
+          <span class="twcard__ctaOpen">open <span class="twcard__arrow">↗</span></span>
+        </div>
+      </a>
+
+      <a href="https://github.com/pi0neerpat/agent-token-monitor#readme" target="_blank" rel="noopener" class="twcard" data-reveal style="--a:var(--accent-3);--delay:140ms">
+        <div class="twcard__path">~/projects/agent-token-monitor/</div>
+        <div class="twcard__head"><span class="twcard__kind">Observability</span><span class="twcard__year">2026</span></div>
+        <h3 class="twcard__title">Agent Token Monitor</h3>
+        <div class="twcard__platforms">
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/apple.svg" alt="" width="12" height="12" /><span>macOS</span></span>
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/linux.svg" alt="" width="12" height="12" /><span>Linux</span></span>
+        </div>
+        <p class="twcard__blurb">Track token spend and model usage across your agent sessions in real time. Local-first, no telemetry.</p>
+        <div class="twcard__preview" aria-hidden="true">
+          <div class="twcard__previewbody" style="--a:var(--accent-3)">
+            <div class="pv pv--menubar">
+              <div class="pv__menubar">
+                <div class="pv__menuLeft">
+                  <svg class="pv__appleIco" viewBox="0 0 170 170" width="13" height="13" aria-hidden="true">
+                    <path fill="currentColor" d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.197-2.12-9.973-3.17-14.34-3.17-4.58 0-9.492 1.05-14.746 3.17-5.262 2.13-9.501 3.24-12.742 3.35-4.929.21-9.842-1.96-14.746-6.52-3.13-2.73-7.045-7.41-11.735-14.04-5.032-7.08-9.169-15.29-12.41-24.65-3.471-10.11-5.211-19.9-5.211-29.378 0-10.857 2.346-20.221 7.045-28.068 3.693-6.303 8.606-11.275 14.755-14.925s12.793-5.51 19.948-5.629c3.915 0 9.049 1.211 15.429 3.591 6.362 2.388 10.447 3.599 12.238 3.599 1.339 0 5.877-1.416 13.57-4.239 7.275-2.618 13.415-3.702 18.445-3.275 13.63 1.1 23.87 6.473 30.68 16.153-12.19 7.386-18.22 17.731-18.1 31.002.11 10.337 3.86 18.939 11.23 25.769 3.34 3.17 7.07 5.62 11.22 7.36-.9 2.61-1.85 5.11-2.86 7.51zM119.11 7.24c0 8.102-2.96 15.667-8.86 22.669-7.12 8.324-15.73 13.134-25.07 12.375a25.222 25.222 0 0 1-.188-3.07c0-7.778 3.386-16.102 9.399-22.908 3.002-3.446 6.82-6.311 11.45-8.597 4.62-2.252 8.99-3.497 13.1-3.71.12 1.083.17 2.166.17 3.24z"/>
+                  </svg>
+                </div>
+                <div class="pv__menuRight">
+                  <div class="pv__meter" title="Claude daily budget">
+                    <span class="pv__meterLabel">Claude</span>
+                    <div class="pv__meterTrack"><div class="pv__meterFill pv__meterFill--warn" style="width:78%"></div></div>
+                    <span class="pv__meterPct">78%</span>
+                  </div>
+                  <div class="pv__meter" title="Codex daily budget">
+                    <span class="pv__meterLabel">Codex</span>
+                    <div class="pv__meterTrack"><div class="pv__meterFill" style="width:42%;background:var(--accent-3)"></div></div>
+                    <span class="pv__meterPct">42%</span>
+                  </div>
+                  <span class="pv__battery" aria-hidden="true">
+                    <svg viewBox="0 0 24 12" width="22" height="11">
+                      <rect x="0.5" y="0.5" width="20" height="11" rx="2.5" fill="none" stroke="currentColor" stroke-opacity="0.7" />
+                      <rect x="21" y="3.5" width="2" height="5" rx="1" fill="currentColor" fill-opacity="0.7" />
+                      <rect x="2" y="2" width="13" height="8" rx="1" fill="currentColor" />
+                    </svg>
+                  </span>
+                  <span class="pv__menuItem pv__menuItem--time">Fri Apr 17 4:21 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="twcard__stack">
+          <span class="tag">Swift</span><span class="tag">Anthropic API</span>
+        </div>
+        <div class="twcard__cta">
+          <span class="twcard__ctaHost"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/github.svg" alt="GitHub" width="12" height="12" class="twcard__ctaIco" /></span>
+          <span class="twcard__ctaOpen">open <span class="twcard__arrow">↗</span></span>
+        </div>
+      </a>
+
+      <a href="https://github.com/pi0neerpat/dispatch#readme" target="_blank" rel="noopener" class="twcard" data-reveal style="--a:var(--accent-4);--delay:210ms">
+        <div class="twcard__path">~/projects/dispatch/</div>
+        <div class="twcard__head"><span class="twcard__kind">Agent Orchestration</span><span class="twcard__year">2026</span></div>
+        <h3 class="twcard__title">Dispatch</h3>
+        <div class="twcard__platforms">
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/apple.svg" alt="" width="12" height="12" /><span>macOS</span></span>
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/windows.svg" alt="" width="12" height="12" /><span>Windows</span></span>
+        </div>
+        <p class="twcard__blurb">Markdown-first agent orchestration. Reads your existing todo.md and activity-log.md, dispatches Claude Code sessions, watches them work, validates output.</p>
+        <div class="twcard__preview" aria-hidden="true">
+          <div class="twcard__previewbody" style="--a:var(--accent-4)">
+            <div class="pv pv--dispatch">
+              <div class="pv__col">
+                <div class="pv__colTitle">todo.md</div>
+                <div class="pv__task">☐ Add input validation</div>
+                <div class="pv__task">☐ Write auth tests</div>
+                <div class="pv__task">☐ Fix Safari bug</div>
+              </div>
+              <div class="pv__col">
+                <div class="pv__colTitle" style="color:var(--accent-4)">running</div>
+                <div class="pv__task pv__task--run" style="border-color:var(--accent-4)"><span style="background:var(--accent-4)" class="pv__runDot"></span>agent · auth tests</div>
+                <div class="pv__task pv__task--run" style="border-color:var(--accent-4)"><span style="background:var(--accent-4)" class="pv__runDot"></span>agent · validation</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="twcard__stack">
+          <span class="tag">markdown</span><span class="tag">tmux</span><span class="tag">bash</span><span class="tag">Node.js</span>
+        </div>
+        <div class="twcard__cta">
+          <span class="twcard__ctaHost"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/github.svg" alt="GitHub" width="12" height="12" class="twcard__ctaIco" /></span>
+          <span class="twcard__ctaOpen">open <span class="twcard__arrow">↗</span></span>
+        </div>
+      </a>
+
+      <a href="https://github.com/pi0neerpat/llama-swap-app#readme" target="_blank" rel="noopener" class="twcard" data-reveal style="--a:var(--accent-1);--delay:280ms">
+        <div class="twcard__path">~/projects/llama-swap-app/</div>
+        <div class="twcard__head"><span class="twcard__kind">Local AI</span><span class="twcard__year">2026</span></div>
+        <h3 class="twcard__title">Llama Swap App</h3>
+        <div class="twcard__platforms">
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/apple.svg" alt="" width="12" height="12" /><span>macOS</span></span>
+          <span class="platform-pill platform-pill--icon"><img class="platform-pill__ico" src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/linux.svg" alt="" width="12" height="12" /><span>Linux</span></span>
+        </div>
+        <p class="twcard__blurb">Swap between local LLMs on demand from a simple desktop app. Keep models cached, pick the right one per task, stay off the cloud.</p>
+        <div class="twcard__preview" aria-hidden="true">
+          <div class="twcard__previewbody" style="--a:var(--accent-1)">
+            <div class="pv pv--llama">
+              <div class="pv__modelList">
+                <div class="pv__model is-active">
+                  <span class="pv__modelDot" style="background:var(--accent-1)"></span>
+                  <span class="pv__modelName">llama-3.1-8b</span>
+                  <span class="pv__modelSt" style="color:var(--accent-1)">active</span>
+                </div>
+                <div class="pv__model">
+                  <span class="pv__modelDot" style="background:var(--border-strong)"></span>
+                  <span class="pv__modelName">mistral-7b</span>
+                  <span class="pv__modelSt" style="color:var(--fg-faint)">cached</span>
+                </div>
+                <div class="pv__model">
+                  <span class="pv__modelDot" style="background:var(--border-strong)"></span>
+                  <span class="pv__modelName">qwen-2.5-14b</span>
+                  <span class="pv__modelSt" style="color:var(--fg-faint)">cached</span>
+                </div>
+                <div class="pv__model">
+                  <span class="pv__modelDot" style="background:var(--border-strong)"></span>
+                  <span class="pv__modelName">phi-4-mini</span>
+                  <span class="pv__modelSt" style="color:var(--fg-faint)">idle</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="twcard__stack">
+          <span class="tag">Swift</span>
+        </div>
+        <div class="twcard__cta">
+          <span class="twcard__ctaHost"><img src="https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/github.svg" alt="GitHub" width="12" height="12" class="twcard__ctaIco" /></span>
+          <span class="twcard__ctaOpen">open <span class="twcard__arrow">↗</span></span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <div class="tdivider">
+    <div class="tdivider__inner">
+      <span class="tdivider__label">~/experience</span>
+      <span class="tdivider__dashes"></span>
+      <span class="tdivider__count">[05]</span>
+    </div>
+  </div>
+
+  <section id="experience" class="texp">
+    <h2 class="th">Experience log</h2>
+    <div class="texp__list">
+      <div class="texp__row">
+        <div class="texp__period">2026 — Present</div>
+        <div class="texp__dot"><span></span></div>
+        <div class="texp__body">
+          <div class="texp__role">Founder &amp; Software Developer</div>
+          <div class="texp__co">Scribular <span class="texp__loc">· USA</span></div>
+          <div class="texp__notes">On-device AI for therapy notes. Session audio never leaves the therapist's hardware - no server, no BAA, no breach surface. Scribular is chapter one.</div>
+        </div>
+      </div>
+      <div class="texp__row">
+        <div class="texp__period">2021 — 2024</div>
+        <div class="texp__dot"><span></span></div>
+        <div class="texp__body">
+          <div class="texp__role">Chief Technology Officer</div>
+          <div class="texp__co">Open Dollar <span class="texp__loc">· Remote</span></div>
+          <div class="texp__notes">Led engineering on a decentralized stablecoin protocol. Shipped through the cycle. Four years of learning what self-custody actually costs - and buys.</div>
+        </div>
+      </div>
+      <div class="texp__row">
+        <div class="texp__period">2020 — 2021</div>
+        <div class="texp__dot"><span></span></div>
+        <div class="texp__body">
+          <div class="texp__role">Developer Experience · Indexer · Contributor</div>
+          <div class="texp__co">Superfluid · The Graph · Raid Guild <span class="texp__loc">· Remote</span></div>
+          <div class="texp__notes">Core DeFi infrastructure: real-time payment streams, decentralized indexing, DAO engineering. Cypherpunk work, in public.</div>
+        </div>
+      </div>
+      <div class="texp__row">
+        <div class="texp__period">2019 — 2021</div>
+        <div class="texp__dot"><span></span></div>
+        <div class="texp__body">
+          <div class="texp__role">Founder</div>
+          <div class="texp__co">Spendless.io <span class="texp__loc">· Remote</span></div>
+          <div class="texp__notes">Self-sovereign savings app - users held their own keys. An early bet on sovereign finance. Shipped, learned, wound down.</div>
+        </div>
+      </div>
+      <div class="texp__row">
+        <div class="texp__period">2016 — 2018</div>
+        <div class="texp__dot"><span></span></div>
+        <div class="texp__body">
+          <div class="texp__role">Biomedical Engineer / Lead Reviewer</div>
+          <div class="texp__co">FDA <span class="texp__loc">· USA</span></div>
+          <div class="texp__notes">Reviewed medical devices. Designed a SharePoint UI and database to organize resources for 150+ devices and speed knowledge transfer across the branch. Led a cross-team push to bring 3D modeling into the review process. Taught an internal course on how decentralized networks could meet federal regulatory needs and improve data quality.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="tdivider">
+    <div class="tdivider__inner">
+      <span class="tdivider__label">~/writing</span>
+      <span class="tdivider__dashes"></span>
+      <span class="tdivider__count">[02]</span>
+    </div>
+  </div>
+
+  <section id="writing" class="twrite">
+    <h2 class="th">Recent writing</h2>
+    <div class="twrite__list">
+      <a href="https://x.com/compose/articles/edit/2024349120811663360" target="_blank" rel="noopener" class="twrite__row">
+        <span class="twrite__date">2024</span>
+        <span class="twrite__title">TokenMaxxing is a learning strategy, not a lifestyle</span>
+        <span class="twrite__tag">Learning</span>
+        <span class="twrite__read">5 min</span>
+        <span class="twrite__arrow">→</span>
+      </a>
+      <a href="https://www.scribular.com/blog/therapists-deserve-to-leave-work-at-work" target="_blank" rel="noopener" class="twrite__row">
+        <span class="twrite__date">2024</span>
+        <span class="twrite__title">Therapists Deserve to Leave Work at Work</span>
+        <span class="twrite__tag">Scribular</span>
+        <span class="twrite__read">4 min</span>
+        <span class="twrite__arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <div class="tdivider">
+    <div class="tdivider__inner">
+      <span class="tdivider__label">~/contact</span>
+      <span class="tdivider__dashes"></span>
+      <span class="tdivider__count">[01]</span>
+    </div>
+  </div>
+
+  <section id="contact" class="tcontact">
+    <div class="tcontact__grid">
+      <div class="tcontact__left">
+        <h2 class="th">Contact me</h2>
+        <p class="tcontact__lead">
+          Don't hesitate to reach out with any questions or ideas. Your message could spark something wonderful - let's start a dialogue.
+        </p>
+        <div class="tcontact__info">
+          <div><span class="metapair__k">email</span><span class="metapair__v"><a href="mailto:hello@gallagherengineer.com">hello@gallagherengineer.com</a></span></div>
+          <div><span class="metapair__k">location</span><span class="metapair__v">United States</span></div>
+          <div><span class="metapair__k">response</span><span class="metapair__v">~24h</span></div>
+        </div>
+        <div class="tcontact__socials">
+          <a href="https://github.com/pi0neerpat" class="chip" rel="noopener" target="_blank">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/pi0neerpat/" class="chip" rel="noopener" target="_blank">LinkedIn ↗</a>
+          <a href="https://twitter.com/pi0neerpat" class="chip" rel="noopener" target="_blank">Twitter ↗</a>
+        </div>
+      </div>
+
+      <form class="tform" id="tform" action="mailto:hello@gallagherengineer.com" method="post" enctype="text/plain">
+        <div class="tform__fields">
+          <label class="tfield">
+            <div class="tfield__head"><span>name</span><span class="tfield__count" data-counter data-max="50">0/50</span></div>
+            <input class="tfield__input" name="name" type="text" maxlength="50" required />
+          </label>
+          <label class="tfield">
+            <div class="tfield__head"><span>email</span><span class="tfield__count" data-counter data-max="50">0/50</span></div>
+            <input class="tfield__input" name="email" type="email" maxlength="50" required />
+          </label>
+          <label class="tfield">
+            <div class="tfield__head"><span>subject</span><span class="tfield__count" data-counter data-max="50">0/50</span></div>
+            <input class="tfield__input" name="subject" type="text" maxlength="50" required />
+          </label>
+          <label class="tfield tfield--ta">
+            <div class="tfield__head"><span>message</span><span class="tfield__count" data-counter data-max="500">0/500</span></div>
+            <textarea class="tfield__input" name="message" maxlength="500" rows="5" required></textarea>
+          </label>
+          <button class="btn btn--primary btn--full" type="submit"><span>send</span><span class="btn__arrow">→</span></button>
+        </div>
+        <div class="tform__sent" hidden>
+          <div class="tform__sentline">$ send_message --to patrick</div>
+          <div class="tform__sentline tform__sentline--ok">✓ delivered. thanks, I'll reply soon.</div>
+          <button type="button" class="btn btn--ghost" data-reset>send another</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="tfoot">
+    <div class="tfoot__inner">
+      <span>© 2026 Patrick Gallagher</span>
+      <span class="tfoot__mid">made in the USA 🇺🇸</span>
+      <span>v2.0.4 · <a href="#top">back to top ↑</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
